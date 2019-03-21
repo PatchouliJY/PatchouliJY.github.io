@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="算法,题解,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="description" content="题目给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。 事例1123输入: &amp;quot;abcabcbb&amp;quot;输出: 3 解释: 因为无重复字符的最长子串是 &amp;quot;abc&amp;quot;，所以其长度为 3。 事例2123输入: &amp;quot;bbbbb&amp;quot;输出: 1解释: 因为无重复字符的最长子串是 &amp;quot;b&amp;quot;，所以其长度为 1。 事例21234输入: &amp;q">
+<meta name="keywords" content="算法,题解">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/03/16/hello-world/index.html">
+<meta property="og:title" content="Leetcode003：无重复字符的最长子串">
+<meta property="og:url" content="http://yoursite.com/2019/03/21/Leetcode003/index.html">
 <meta property="og:site_name" content="Patchouli &amp; Bluesky">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="题目给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。 事例1123输入: &amp;quot;abcabcbb&amp;quot;输出: 3 解释: 因为无重复字符的最长子串是 &amp;quot;abc&amp;quot;，所以其长度为 3。 事例2123输入: &amp;quot;bbbbb&amp;quot;输出: 1解释: 因为无重复字符的最长子串是 &amp;quot;b&amp;quot;，所以其长度为 1。 事例21234输入: &amp;q">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-16T01:42:45.518Z">
+<meta property="og:updated_time" content="2019-03-21T08:26:14.280Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="Leetcode003：无重复字符的最长子串">
+<meta name="twitter:description" content="题目给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。 事例1123输入: &amp;quot;abcabcbb&amp;quot;输出: 3 解释: 因为无重复字符的最长子串是 &amp;quot;abc&amp;quot;，所以其长度为 3。 事例2123输入: &amp;quot;bbbbb&amp;quot;输出: 1解释: 因为无重复字符的最长子串是 &amp;quot;b&amp;quot;，所以其长度为 1。 事例21234输入: &amp;q">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/03/16/hello-world/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/21/Leetcode003/">
 
 
 
 
 
-  <title>Hello World | Patchouli & Bluesky</title>
+  <title>Leetcode003：无重复字符的最长子串 | Patchouli & Bluesky</title>
   
 
 
@@ -232,7 +233,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/16/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/21/Leetcode003/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Patchouli Knowledge">
@@ -249,7 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World</h1>
+          <h1 class="post-title" itemprop="name headline">Leetcode003：无重复字符的最长子串</h1>
         
 
         <div class="post-meta">
@@ -261,8 +262,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-16T09:42:45+08:00">
-                2019-03-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-21T15:48:49+08:00">
+                2019-03-21
               </time>
             
 
@@ -271,6 +272,28 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Leetcode题解/" itemprop="url" rel="index">
+                    <span itemprop="name">Leetcode题解</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -293,7 +316,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  73字
+                  442字
                 </span>
               
 
@@ -330,16 +353,13 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+        <h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>给定一个字符串，请你找出其中不含有重复字符的<strong>最长子串</strong>的长度。</p>
+<h3 id="事例1"><a href="#事例1" class="headerlink" title="事例1"></a>事例1</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: &quot;abcabcbb&quot;</span><br><span class="line">输出: 3 </span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;abc&quot;，所以其长度为 3。</span><br></pre></td></tr></table></figure>
+<h3 id="事例2"><a href="#事例2" class="headerlink" title="事例2"></a>事例2</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: &quot;bbbbb&quot;</span><br><span class="line">输出: 1</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;b&quot;，所以其长度为 1。</span><br></pre></td></tr></table></figure>
+<h3 id="事例2-1"><a href="#事例2-1" class="headerlink" title="事例2"></a>事例2</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">输入: &quot;pwwkew&quot;</span><br><span class="line">输出: 3</span><br><span class="line">解释: 因为无重复字符的最长子串是 &quot;wke&quot;，所以其长度为 3。</span><br><span class="line">    请注意，你的答案必须是子串的长度，&quot;pwke&quot; 是一个子序列，不是子串。</span><br></pre></td></tr></table></figure>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>使用一个滑动窗口进行框选无重复子串，即窗口<code>cut</code>（<code>s[start,finish]</code>）为字符串<code>s</code>的子串，且<code>cut</code>中各元素不重复。<br>若<code>s[finish+1]</code>与<code>cut</code>中字符不重复，则扩大窗口<code>cut</code>至<code>s[start,finish+1]</code>。<br>若<code>s[finish+1]</code>与<code>cut</code>中字符重复，则从<code>cut</code>中查找与<code>s[finish+1]</code>相同的字符，并将此字符后的第一个字符设置为窗口起始值，而后将<code>s[finish+1]</code>加入<code>cut</code>。</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="算法部分"><a href="#算法部分" class="headerlink" title="算法部分"></a>算法部分</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> start = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">int</span> length = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">int</span> nowLength = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> finish = <span class="number">0</span>; finish &lt; s.length() - <span class="number">1</span>; finish++) &#123;</span><br><span class="line">		String cut = s.substring(start, finish + <span class="number">1</span>);</span><br><span class="line">		String next = String.valueOf(s.charAt(finish + <span class="number">1</span>));</span><br><span class="line">		<span class="keyword">if</span> (cut.contains(next) == <span class="keyword">false</span>) &#123;</span><br><span class="line">			nowLength++;</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="comment">//从与next重复的字符后一个重新开始</span></span><br><span class="line">			start = start + cut.indexOf(next) + <span class="number">1</span>;</span><br><span class="line">            <span class="comment">//计算新的cut长度（finish - start + 1），加上next（+ 1）</span></span><br><span class="line">			nowLength = finish - start + <span class="number">1</span> + <span class="number">1</span>;</span><br><span class="line">		&#125;</span><br><span class="line">        <span class="comment">//判断当前最长子串长度是否大于记录的最长子串长度，更新</span></span><br><span class="line">		<span class="keyword">if</span> (nowLength &gt; length)</span><br><span class="line">			length = nowLength;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> length;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="测试部分"><a href="#测试部分" class="headerlink" title="测试部分"></a>测试部分</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	test003 test1 = <span class="keyword">new</span> test003();</span><br><span class="line">	String s = <span class="string">"pwwkew"</span>;</span><br><span class="line">	<span class="keyword">int</span> result = test1.lengthOfLongestSubstring(s);</span><br><span class="line">	System.out.println(result);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -354,6 +374,14 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/算法/" rel="tag"># 算法</a>
+          
+            <a href="/tags/题解/" rel="tag"># 题解</a>
+          
+        </div>
+      
 
       
       
@@ -363,15 +391,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/03/16/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/03/21/Leetcode003/" rel="prev" title="Leetcode003：无重复字符的最长子串">
-                Leetcode003：无重复字符的最长子串 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -521,7 +549,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题目"><span class="nav-number">1.</span> <span class="nav-text">题目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#事例1"><span class="nav-number">1.1.</span> <span class="nav-text">事例1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#事例2"><span class="nav-number">1.2.</span> <span class="nav-text">事例2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#事例2-1"><span class="nav-number">1.3.</span> <span class="nav-text">事例2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#思路"><span class="nav-number">2.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">3.</span> <span class="nav-text">代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#算法部分"><span class="nav-number">3.1.</span> <span class="nav-text">算法部分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试部分"><span class="nav-number">3.2.</span> <span class="nav-text">测试部分</span></a></li></ol></li></ol></div>
             
 
           </div>
